@@ -5,7 +5,7 @@ package cn.edu.tzc.fivechess.event;
  */
 
 public class SitResultEvent {
-    private final String event = "siteResult";
+    public final String event = "siteResult";
     private int commandId;
     private String message;
     private String status;

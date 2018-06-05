@@ -5,7 +5,7 @@ package cn.edu.tzc.fivechess.event;
  */
 
 public class CounterpartStepEvent {
-    private final String event = "counterpartStep";
+    public final String event = "counterpartStep";
     private int x;
     private int y;
 
