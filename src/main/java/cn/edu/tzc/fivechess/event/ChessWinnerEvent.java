@@ -5,7 +5,7 @@ package cn.edu.tzc.fivechess.event;
  */
 
 public class ChessWinnerEvent {
-    public final String event = "chessWinner";
+    public static final String event = "chessWinner";
     private String winner;
 
     public String getEvent() {

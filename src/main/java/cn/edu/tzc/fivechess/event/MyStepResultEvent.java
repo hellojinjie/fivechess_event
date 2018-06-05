@@ -5,7 +5,7 @@ package cn.edu.tzc.fivechess.event;
  */
 
 public class MyStepResultEvent {
-    public final String event = "myStepResult";
+    public static final String event = "myStepResult";
     private int commandId;
     private String message;
     private String status;
