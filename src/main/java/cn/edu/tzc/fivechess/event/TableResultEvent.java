@@ -7,7 +7,7 @@ import cn.edu.tzc.fivechess.event.bean.ChessTable;
  */
 
 public class TableResultEvent {
-    public static final String event = "tableResult";
+    public final String event = "tableResult";
     private int commandId;
     private String message;
     private String status;

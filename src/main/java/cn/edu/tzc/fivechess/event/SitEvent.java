@@ -5,7 +5,7 @@ package cn.edu.tzc.fivechess.event;
  */
 
 public class SitEvent {
-    public static final String event = "sit";
+    public final String event = "sit";
     private int commandId;
     private int tableId;
 

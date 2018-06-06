@@ -5,7 +5,7 @@ package cn.edu.tzc.fivechess.event;
  */
 
 public class LeaveTableEvent {
-    public static final String event = "leaveTable";
+    public final String event = "leaveTable";
     private int commandId;
 
     public String getEvent() {

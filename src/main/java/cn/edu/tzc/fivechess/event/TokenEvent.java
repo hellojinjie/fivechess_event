@@ -5,7 +5,7 @@ package cn.edu.tzc.fivechess.event;
  */
 
 public class TokenEvent {
-    public static final String event = "token";
+    public final String event = "token";
     private int commandId;
     private String token;
 
